@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
-    public function category(){
+    public function categoryView():String{
         return view('pages.dashboard.category');
     }
+
 }
